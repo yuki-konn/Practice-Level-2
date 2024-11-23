@@ -1,0 +1,16 @@
+$bgColor: #121212;
+$primaryColor: lightgray;
+$bgImage: url(res/images/backgroundImage.jpg);
+@mixin background {
+    background-image: $bgImage;
+    background-size: 70%;
+    // background-repeat: no-repeat;
+}
+body {
+    @include background;
+    color: $primaryColor;
+    header,main,footer {
+        background-color: $bgColor;
+        text-align: center;
+    }
+}

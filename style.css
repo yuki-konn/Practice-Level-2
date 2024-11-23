@@ -1,0 +1,9 @@
+body {
+  background-image: url(res/images/backgroundImage.jpg);
+  background-size: 70%;
+  color: lightgray;
+}
+body header, body main, body footer {
+  background-color: #121212;
+  text-align: center;
+}
