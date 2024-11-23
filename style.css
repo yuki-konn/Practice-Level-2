@@ -3,7 +3,13 @@ body {
   background-size: 70%;
   color: lightgray;
 }
-body header, body main, body footer {
+body header,
+body main,
+body footer {
   background-color: #121212;
   text-align: center;
+}
+
+.border-double {
+  border-style: double !important;
 }
