@@ -54,7 +54,3 @@ function practice3() {
     output(`<br>${soldierString}<br>`);
   }
 }
-
-function refresh() {
-  outputTag.innerHTML = "";
-}
