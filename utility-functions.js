@@ -7,4 +7,5 @@ function output(message = "", outputTag = "outputTag", shouldAppend = true) {
 function refresh() {
   outputTag.innerHTML = "";
   outputTag2.innerHTML = "";
+  outputTag3.innerHTML = "";
 }
