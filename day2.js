@@ -47,3 +47,24 @@ function practice3() {
     output(`${myString}, ${myNumber}, ${myBoolean}<br>`, "outputTag3");
   }
 }
+
+function practice4() {
+  debugger;
+
+  const bookObject = {
+    propertyOne: ["Green rice and Ham", 1991, true],
+    propertyTwo: ["Yellow rice and Ham", 1997, false],
+    propertyThree: ["Pink rice and Ham", 2001, true],
+  };
+
+  for (let propertyName in bookObject) {
+    const myArray = bookObject[propertyName];
+    output(`${propertyName} contains `, "outputTag4");
+
+    for (let item of myArray) {
+      output(`${item} `, "outputTag4");
+    }
+
+    output("<br>", "outputTag4");
+  }
+}

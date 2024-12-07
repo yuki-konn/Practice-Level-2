@@ -8,4 +8,5 @@ function refresh() {
   outputTag.innerHTML = "";
   outputTag2.innerHTML = "";
   outputTag3.innerHTML = "";
+  outputTag4.innerHTML = "";
 }
