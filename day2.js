@@ -1,3 +1,5 @@
+// OBJECT WITH ARRAY INSIDE,
+// MANUALLY DISPLAY EACH VALUE OF THE ARRAY INSIDE THE OBJECT.
 function practice1() {
   debugger;
   const bookObject = {
@@ -9,6 +11,8 @@ function practice1() {
   output(myArray[2] + "<br>");
 }
 
+// OBJECT WITH 3 PROPERTIES INSIDE THAT EACH CONTAIN AN ARRAY.
+// USE LOOP TO DISPLAY EACH VALUE OF EACH ARRAY INSIDE THE OBJECT.
 function practice2() {
   debugger;
 
@@ -30,6 +34,8 @@ function practice2() {
   }
 }
 
+// USE BRACKET NOTATION.
+// USE LOOP TO DISPLAY EACH VALUE OF EACH ARRAY INSIDE THE OBJECT.
 function practice3() {
   debugger;
   const bookObject = {
@@ -48,6 +54,10 @@ function practice3() {
   }
 }
 
+// USE for in TO LOOP THROUGH OBJECT PROPERTIES
+// USE for of TO LOOP THROUGH ARRAY ITEMS
+// USE NESTED LOOPS TO DISPLAY EACH ITEM
+// USE LOOP TO DISPLAY EACH VALUE OF EACH ARRAY INSIDE THE OBJECT.
 function practice4() {
   debugger;
 
