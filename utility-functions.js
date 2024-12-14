@@ -6,7 +6,9 @@ function output(message = "", outputTag = "outputTag", shouldAppend = true) {
 
 function refresh() {
   outputTag.innerHTML = "";
+  outputTag1.innerHTML = "";
   outputTag2.innerHTML = "";
   outputTag3.innerHTML = "";
   outputTag4.innerHTML = "";
+  outputTag5.innerHTML = "";
 }
