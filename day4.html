@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Day 4</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="utility-functions.js"></script>
+    <script src="day4.js"></script>
+  </head>
+  <body class="container">
+    <header>
+      <h1>Practice Day 4</h1>
+    </header>
+    <main>
+      <section>
+        <form onsubmit="handleSubmit(event)">
+          <h2>Color</h2>
+          <input type="radio" name="color" id="red-radio" value="Red" />
+          <label for="red-radio">Red</label>
+          <input type="radio" name="color" id="green-radio" value="Green" />
+          <label for="green-radio">Green</label>
+          <input type="radio" name="color" id="blue-radio" value="Blue" />
+          <label for="blue-radio">Blue</label>
+          <input type="radio" name="color" id="white-radio" value="White" />
+          <label for="white-radio">White</label>
+          <hr />
+          <h2>Animal</h2>
+          <input type="radio" name="animal" id="racoon-radio" value="Racoon" />
+          <label for="racoon-radio">Racoon</label>
+          <input type="radio" name="animal" id="koala-radio" value="Koala" />
+          <label for="koala-radio">Koala</label>
+          <input type="radio" name="animal" id="goose-radio" value="Goose" />
+          <label for="goose-radio">Goose</label>
+          <input type="radio" name="animal" id="tiger-radio" value="Tiger" />
+          <label for="tiger-radio">Tiger</label>
+          <hr />
+          <h2>Data Type</h2>
+          <input
+            type="radio"
+            name="dataType"
+            id="string-radio"
+            value="string"
+          />
+          <label for="string-radio">String</label>
+          <input
+            type="radio"
+            name="dataType"
+            id="number-radio"
+            value="number"
+          />
+          <label for="number-radio">Number</label>
+          <input type="radio" name="dataType" id="array-radio" value="array" />
+          <label for="array-radio">Array</label>
+          <input
+            type="radio"
+            name="dataType"
+            id="object-radio"
+            value="object"
+          />
+          <label for="object-radio">Object</label>
+          <br /><br />
+          <button type="submit">Choose radio buttons</button>
+        </form>
+
+        <output id="outputTag"></output><br />
+        <output id="outputTag1"></output><br />
+        <output id="outputTag2"></output><br />
+        <output id="outputTag3"></output><br />
+        <output id="outputTag4"></output>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
